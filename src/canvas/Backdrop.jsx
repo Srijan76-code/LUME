@@ -26,7 +26,7 @@ const Backdrop = () => {
       <RandomizedLight
         amount={4} // Consistent with primary light
         radius={12} // Slightly softer for variation
-        intensity={0.65} // Less intense for fill light
+        intensity={1.24} // Less intense for fill light
         ambient={0.5} // Higher ambient for softer fill
         position={[-3, 4, -7]} // Offset to simulate natural light bounce
       />
